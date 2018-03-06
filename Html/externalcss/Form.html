@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Form</title>
+</head>
+<body>
+	<form method="Post" action="./Post.php" enctype="multipart/form-data">
+		Name: <input type="text" name="name"><br>
+		Birth Date: <input type="Date" name="date" step="1"><br>
+		Budget:	
+		<input type="range" name="budget" min="100" max="5000" value="1000" step="100" onchange="document.getElementById('display').innerHTML=this.value">
+		<span id="display">1000</span><br>
+		<input type="submit" value="send">
+	</form>
+</body>
+</html>
