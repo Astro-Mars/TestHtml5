@@ -1,0 +1,32 @@
+/*Style CSS*/
+p{
+	color:red;
+}
+section.first{
+	color: blue;
+}
+section.second>p{
+	color:purple;
+}
+a:hover{
+	color:yellow;
+}
+p:hover{
+	color:gray;
+}
+#test:hover {
+	color: blue;
+}
+button:active{
+	color:black;
+}
+input[type=text]:focus{
+	color: yellow;
+	background-color: black;
+}
+#Asecond:visited{
+	color: lightblue;
+}
+#Asecond{
+	color:yellow;
+}

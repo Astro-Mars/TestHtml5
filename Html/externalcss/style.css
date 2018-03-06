@@ -1,0 +1,38 @@
+/*style.css*/
+h1{
+	color:red;
+	font-family: Arial;
+}
+.myclass{
+	color: orange;
+	font-style: italic;
+}
+#id
+{
+	color: blue;
+	font-size: 15px;
+}
+#p2{
+	border: 1px solid powderblue;
+	margin: 50px;
+}
+body{
+	border: :1px solid;
+	margin:50px;
+	padding: 0px;
+	
+}
+table	
+{
+	font-family: arial,sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even){
+	background-color: #dddddd;
+}
