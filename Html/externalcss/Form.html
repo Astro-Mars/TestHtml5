@@ -5,12 +5,17 @@
 </head>
 <body>
 	<form method="Post" action="./Post.php" enctype="multipart/form-data">
-		Name: <input type="text" name="name"><br>
-		Birth Date: <input type="Date" name="date" step="1"><br>
+		Name: <input type="text" name="name" required=""><br>
+		Birth Date: <input type="Date" name="date" step="1" required=""><br>
 		Budget:	
 		<input type="range" name="budget" min="100" max="5000" value="1000" step="100" onchange="document.getElementById('display').innerHTML=this.value">
 		<span id="display">1000</span><br>
+		Website:
+		<input type="url" name="website" size="25" maxlength="255" placeholder="https://www.google.co.uk"><br>
+		Promotion Code (only number and letters) :
+		<input type="text" name="promocode" size="15" maxlength="15" pattern="[A-z0-9]*" required=""><br>
 		<input type="submit" value="send">
+		<input type="reset" value="Reset">
 	</form>
 </body>
 </html>
