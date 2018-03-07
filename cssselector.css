@@ -1,0 +1,32 @@
+p a{
+    color: gray;
+}
+p strong a{
+    color: rebeccapurple;
+}
+p > a{
+    color: red;
+}
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:black;
+}
+p{
+    background-color: blanchedalmond;
+    /* margin-left: auto;
+    margin-right: auto;
+    padding: 20px; */
+}
+p.alert
+{
+    background: #FFD url(Alert.png) no-repeat 10px center;
+    border: 2px solid #DDA;
+    padding: 10px 10px 10px 50px;
+    border-radius: 5px;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5em;
+}
