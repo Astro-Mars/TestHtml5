@@ -1,0 +1,31 @@
+<html>
+	<header>
+		<title>Show Hide JS</title>
+		<script>
+			function showmore{
+				document.getElementById('more').style.display='block';
+				document.getElementById('more_link').style.display='none';
+			}
+			function hide{
+				document.getElementById('more').style.display='none';
+				document.getElementById('more_link').style.display='block';
+			}
+		</script>
+	</header>
+	<body>
+		<p>
+			  One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Weekly Shōnen Jump since August 4, 1997; the individual chapters are being published in tankōbon volumes by Shueisha, with the first released on December 24, 1997, and the 73rd volume released as of March 2014.
+		</p>
+
+		<a href="#" onclick="showmore()" id="more_link">Show More</a>
+
+		<div style="display: none" id="more">
+			<p>
+				One Piece follows the adventures of Monkey D. Luffy, a young boy whose 	body gains the properties of rubber after unintentionally eating a Devil Fruit, and his diverse crew of pirates, named the Straw Hat Pirates. Luffy explores the ocean in search of the world's ultimate treasure known as One Piece in order to become the next Pirate King.
+			</p>
+			<a href="#" onclick="hide()">Hide</a>
+		</div>
+		
+
+	</body>
+</html>
